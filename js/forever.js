@@ -9,12 +9,14 @@ $(function () {
             console.log(lnk, idx);
             //만약에 2번쨰에 오면... nav li class on을 붙이고 나머지 a는 뗀다.
             // $('nav li a').removeClass('on');
-            if (idx == 2 || idx == 3 || idx == 4 || idx == 5 || idx == 6) {
+            if (idx != 1) {
                 //$('nav li').eq(1).find('a').addClass('on');
 
                 if ($(window).width() > 767) {
                     $('nav').addClass('on');
                     $('.header').addClass('on');
+                } else {
+                    $('.header').addClass('active');
                 }
 
 
@@ -23,6 +25,8 @@ $(function () {
                 if ($(window).width() > 767) {
                     $('nav').removeClass('on');
                     $('.header').removeClass('on')
+                } else {
+                    $('.header').removeClass('active');
                 }
             }
 
@@ -95,8 +99,6 @@ $(function () {
     $('.main_service .box').on('mouseenter', function () {
         $(this).addClass('on').siblings().removeClass('on');
     })
-
-
 
     const noticeSlide = new Swiper('.notice_wrap', {
         loop: true,
