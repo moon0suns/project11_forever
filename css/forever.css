@@ -387,18 +387,20 @@
         position: absolute;
         inset: 14rem 5rem auto 5rem;
         height: 2rem;
-        background: #666;
+        background: #ddd;
     }
 
 
     .mopen.on::before {
         transform: rotate(45deg);
         transition: 0.5s 0.2s;
+        background: #444;
     }
 
     .mopen.on::after {
         transform: rotate(-225deg);
         transition: 0.5s 0.6s;
+        background: #444;
     }
 
     .mopen button {
@@ -412,9 +414,8 @@
         content: "";
         position: absolute;
         height: 2rem;
-        background: #666;
+        background: #ddd;
     }
-
 
     .mopen button::before {
         inset: 7rem 5rem auto 5rem;
@@ -426,10 +427,12 @@
 
     .mopen.on button::before {
         display: none;
+
     }
 
     .mopen.on button::after {
         display: none;
+
     }
 
 }
@@ -1257,7 +1260,8 @@
 
 @media (max-width: 768px) {
     .main_about {
-        padding: 0 0 30rem 0;
+        /* 💥모바일에서 하단 패딩 안맞음 */
+        padding: 0 0 50rem 0;
         background: url(../images/about-bg-m.jpg)no-repeat center center /cover;
     }
 
