@@ -1,0 +1,39 @@
+html {
+    font-size: 6.25%;
+}
+
+/* 1rem = 1px */
+
+@media (max-width: 500px) {
+    html {
+        font-size: 0.25641025641vw;
+        /* 390 size에 맞춤 (16/390*6.25/100) */
+
+    }
+}
+
+body {
+    font-size: 16rem;
+    word-break: keep-all;
+}
+
+/* line-height : 3rem + 3rem */
+p {
+    line-height: 1.375;
+}
+
+.inner {
+    max-width: 1200rem;
+    margin: 0 auto;
+    padding: 0 15rem;
+}
+
+.sec {
+    padding: 100rem 0;
+}
+
+@media (max-width: 500px) {
+    .section {
+        padding: 0 0;
+    }
+}

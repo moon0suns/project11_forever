@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forEVer</title>
+
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./css/forever.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/jquery.easings.min.js"></script>
+    <script src="./js/scrolloverflow.min.js"></script>
+    <script src="./js/forever.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_wrap">
+            <h1>
+                <a href="/" class="logo"></a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="">포에버</a>
+                        <ul class="sub">
+                            <li><a href="">포에버 소개</a></li>
+                            <li><a href="">이용 안내</a></li>
+                            <li><a href="">요금 안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">충전소 검색</a>
+                        <ul class="sub">
+                            <li><a href="">충전소 검색</a></li>
+                            <li><a href="">충전소 예약</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">커뮤니티</a>
+                        <ul class="sub">
+                            <li><a href="">공지사항</a></li>
+                            <li><a href="">EVENT</a></li>
+                            <li><a href="">게시판</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">고객센터</a>
+                        <ul class="sub">
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">제휴 문의</a></li>
+                            <li><a href="">충전기 설치 신청</a></li>
+                            <li><a href="">고객센터 안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="tnb">
+                <ul>
+                    <li><a href="">회원가입</a></li>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">그룹장페이지</a></li>
+                    <li><a href="">파트너페이지</a></li>
+                </ul>
+                <div class="icon">
+                    <i class="xi-bars"></i>
+                </div>
+            </div>
+            <div class="mopen">
+                <button></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="aside">
+        <ul>
+            <li class="on"><a href="#intro"><span>INTRO</span></a></li>
+            <li><a href="#charge"><span>CHARGE</span></a></li>
+            <li><a href="#service"><span>SERVICE</span></a></li>
+            <li><a href="#notice"><span>NOTICE</span></a></li>
+            <li><a href="#about"><span>ABOUT</span></a></li>
+        </ul>
+    </div>
+
+    <div class="main_full">
+        <section class="section main_visual">
+            <div class="swiper main_slide">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide mbg mbg01">
+                        <div class="slide-image" data-swiper-parallax='45%'></div>
+                        <div class="slogan">
+                            <h2>
+                                <span>전기 충전 인프라 및</span>
+                                통합 솔루션
+                            </h2>
+                            <p>
+                                Electric charging infrastructure and
+                                <span>integrated solution</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mbg mbg02">
+                        <div class="slide-image" data-swiper-parallax='45%'></div>
+                        <div class="slogan">
+                            <h2>
+                                <span>충전 이용에 대해</span>
+                                안내해드립니다.
+                            </h2>
+                            <p>
+                                Electric charging infrastructure and
+                                <span>integrated solution</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide mbg mbg03">
+                        <div class="slide-image" data-swiper-parallax='45%'></div>
+                        <div class="slogan">
+                            <h2>
+                                <span>충전기를 </span>
+                                설치하고 싶으세요?
+                            </h2>
+                            <p>
+                                Electric charging infrastructure and
+                                <span>integrated solution</span>
+                            </p>
+                            <div class="tag">
+                                <ul>
+                                    <li>상태표시를 위한 Display 적용</li>
+                                    <li>LCD 강화유리 적용</li>
+                                    <li>RF 태그를 이용한 사용자 인증</li>
+                                    <li>깔끔한 케이블 처리</li>
+                                </ul>
+                                <ul>
+                                    <li>부드러운 재질의 충전 케이블</li>
+                                    <li>IP55 보호 등급 및 KC 인증 획득</li>
+                                    <li>넓은 범위의 온도/습도 사용 조건</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="dots">
+                <li class="on">
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+            </ul>
+            <div class="arrows">
+                <i class="xi-long-arrow-left left"></i>
+                <i class="xi-long-arrow-right right"></i>
+            </div>
+            <div class="scroll_bar">
+                <div class="sbar"></div>
+            </div>
+            <div class="scr">
+                <i class="xi-angle-down-thin"></i>
+            </div>
+        </section>
+
+
+        <section class="section main_charge on">
+            <div class="inner">
+                <div class="charge_txt">
+                    <h2>
+                        <span>전국 어디에서나</span>
+                        실시간으로 편리하게!
+                    </h2>
+                    <p>
+                        <span>forEVer는 충전기 인프라 구축의 풍부한 경험과 최고의 기술력으로</span>
+                        전국 어디에서나 실시간으로 편리하게 전기차를 충전할 수 있는 환경을 제공합니다.
+                    </p>
+                    <div class="btn">
+                        <a href="">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="tab">
+                    <button type="button" class="active">
+                        <i class="xi-gps"></i>
+                        <span>충전기 검색</span>
+                    </button>
+                    <button type="button">
+                        <i class="xi-desktop"></i>
+                        <span>충전기 예약</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section main_service">
+            <div class="content">
+                <div class="box box01">
+                    <div class="txt">
+                        <h2>포에버 소개</h2>
+                        <p>가치를 높이는 forEVer에 대해 소개합니다.</p>
+                        <div class="btn">
+                            <a href="">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box02 on">
+                    <div class="txt">
+                        <h2>이용 안내</h2>
+                        <p>회원 인증 후, 편리하게 충전기를 이용할 수 있습니다.</p>
+                        <ul>
+                            <li>
+                                <div class="btn">
+                                    <a href="">충전기 이용안내</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn">
+                                    <a href="">회원가입 안내</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box box03">
+                    <div class="txt">
+                        <h2>요금 안내</h2>
+                        <p>기간 및 충전기별로 요금을 안내해드립니다.</p>
+                        <div class="btn">
+                            <a href="">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="section main_notice">
+
+            <div class="inner tit">
+                <h2><span>forEVer</span>의 최신 소식을 확인하세요.</h2>
+            </div>
+            <div class="content">
+                <div class="con_bg">
+
+                </div>
+                <div class="con_slide">
+                    <div class="swiper notice_wrap">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">01</span>
+                                        <span class="stt">
+                                            메타버스컨텍센터 서비스 오픈
+                                        </span>
+                                        <span class="desc">
+                                            가상환경에서의 컨텍센터인 “메타워크플레이스” 출시forEVer㈜(대표이사 남경환)는 메타버스에서 고객상담 업무를 할 수 있는 자체 개발
+                                            솔루션인
+                                            “메타워크플레이스” 을 3월 본격 출시 한다. 가상의 환경에 상담센터를 구축하기 때문에, 사무실 임대료 등 관리 비용 또한 현저히 절감할
+                                            수 있으며, 특히 대부분의 기업들이 재택근무 시 가장 우려하는 직원 관리와 커뮤니케이션의 부재, 회의, 보고, 직원교육 등을 가상의
+                                            아바타로 실시간으로 진행 할 수 있어 관리자와 기업의 니즈를 모두 반영하여 설계 되었다는 것이 특징이다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">02</span>
+                                        <span class="stt">
+                                            ‘다시 溫(온) 연탄 나눔’ 행사 진행
+                                        </span>
+                                        <span class="desc">
+                                            forEVer가 15일 연말을 맞아 소외된 이웃들을 돕기 위해 임직원들과 함께 ‘다시 溫(온) 연탄 나눔’ 행사를 진행했다.forEVer
+                                            임직원으로
+                                            구성된
+                                            ‘나눔봉사단’은 이번 행사를 통해 영등포 내 쪽방촌에 거주하고 있는 저소득 가구에게 연탄 2,000장과 난방유 2,000L를 전달하였다.
+                                            forEver 관계자는 “나날이 떨어지는 기온 속에서 힘드신 나날을 보내는 소외된 이웃에게 위안과 도움이 될 수 있었다는 점에서
+                                            기쁘다”며 “향후에도 소외된 위한 다양한 사회공헌 활동을 지속적으로 펼쳐 기업의 사회적 책임을 다할 것"이라고 말했다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">03</span>
+                                        <span class="stt">
+                                            ‘2022 지속가능경영유공 산업통상자원부 장관 표창’ 수상
+
+                                        </span>
+                                        <span class="desc">
+                                            효성의 IT 계열회사인 forEVer는 7일 서울 중구 대한상공회의소에서 열린 ‘2022 지속가능경영유공 정부 포상’에서 산업통상자원부
+                                            장관 표창을 수상했다. forEver는 지속가능한 생산성 향상, 건전한 기업지배구조 구축, 차별 없는 좋은 일터 만들기, 적극적인
+                                            사회공헌 활동 전개 등에 대해 공적을 인정받아 최종 선정되었다.
+                                            forEver 관계자는 “향후 적극적인 지속가능경영 체계 구축 및 이행을 통해 기업의 사회적 책임을 다하겠다”고 말했다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">04</span>
+                                        <span class="stt">
+                                            가상상담사 솔루션 상품화 위해 한솔인티큐브와 MOU 체결
+
+                                        </span>
+                                        <span class="desc">
+                                            forEVer 대표이사, (우) 류창성 한솔인티큐브 대표이사 효성의 IT 계열회사인 forEVer가 인공지능컨택센터(AICC) 시장에서의
+                                            경쟁력
+                                            강화를 위해 한솔인티큐브와 손을 잡고 가상상담사 솔루션 사업에 나선다.
+                                            고객센터 이용자 입장에서는 ARS의 길고 복잡한 안내를 듣거나, 상담원 연결을 기다리지 않더라도 문의 내용을 음성으로 즉시 접수함으로써
+                                            통화 시간을 줄일 수 있다. 또한 간단한 문의는 셀프(Self) 처리가 가능하여, 상담원과의 직접 연결을 원하지 않는 MZ 세대의 이용
+                                            편의를 제고할 수 있을 것으로 기대된다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">05</span>
+                                        <span class="stt">
+                                            무더위에 지친 취약계층 대상 나눔 행사
+                                        </span>
+                                        <span class="desc">
+                                            forEver는와 두 기관이 협력하여 개최한 행사는 영등포구 대림동 소재 식당에서 약 60여명의 노인들을 초청하여 진행되었다. 행사 기간
+                                            동안 저소득 어르신들께 무더위를 이겨내실 수 있는 든든한 보양식을 제공하고, 시원한 여름을 날 수 있도록 홑겹 이불을 1채씩 전달하는 등
+                                            나눔의 시간을 가졌다.
+                                            forEver 관계자는 “최근 임직원들이 모두 동참한 걷기 기부 챌린지 달성에 따라 이번 행사를 진행하게 되었다”며, “앞으로도 회사와
+                                            임직원 모두 힘을 합쳐 지역사회에 도움이 될 수 있는 다양한 방법들을 모색하겠다”고 말했다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">01</span>
+                                        <span class="stt">
+                                            메타버스컨텍센터 서비스 오픈
+                                        </span>
+                                        <span class="desc">
+                                            가상환경에서의 컨텍센터인 “메타워크플레이스” 출시forEVer㈜(대표이사 남경환)는 메타버스에서 고객상담 업무를 할 수 있는 자체 개발
+                                            솔루션인
+                                            “메타워크플레이스” 을 3월 본격 출시 한다. 가상의 환경에 상담센터를 구축하기 때문에, 사무실 임대료 등 관리 비용 또한 현저히 절감할
+                                            수 있으며, 특히 대부분의 기업들이 재택근무 시 가장 우려하는 직원 관리와 커뮤니케이션의 부재, 회의, 보고, 직원교육 등을 가상의
+                                            아바타로 실시간으로 진행 할 수 있어 관리자와 기업의 니즈를 모두 반영하여 설계 되었다는 것이 특징이다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">02</span>
+                                        <span class="stt">
+                                            ‘다시 溫(온) 연탄 나눔’ 행사 진행
+                                        </span>
+                                        <span class="desc">
+                                            forEVer가 15일 연말을 맞아 소외된 이웃들을 돕기 위해 임직원들과 함께 ‘다시 溫(온) 연탄 나눔’ 행사를 진행했다.forEVer
+                                            임직원으로
+                                            구성된
+                                            ‘나눔봉사단’은 이번 행사를 통해 영등포 내 쪽방촌에 거주하고 있는 저소득 가구에게 연탄 2,000장과 난방유 2,000L를 전달하였다.
+                                            forEver 관계자는 “나날이 떨어지는 기온 속에서 힘드신 나날을 보내는 소외된 이웃에게 위안과 도움이 될 수 있었다는 점에서
+                                            기쁘다”며 “향후에도 소외된 위한 다양한 사회공헌 활동을 지속적으로 펼쳐 기업의 사회적 책임을 다할 것"이라고 말했다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">03</span>
+                                        <span class="stt">
+                                            ‘2022 지속가능경영유공 산업통상자원부 장관 표창’ 수상
+
+                                        </span>
+                                        <span class="desc">
+                                            효성의 IT 계열회사인 forEVer는 7일 서울 중구 대한상공회의소에서 열린 ‘2022 지속가능경영유공 정부 포상’에서 산업통상자원부
+                                            장관 표창을 수상했다. forEver는 지속가능한 생산성 향상, 건전한 기업지배구조 구축, 차별 없는 좋은 일터 만들기, 적극적인
+                                            사회공헌 활동 전개 등에 대해 공적을 인정받아 최종 선정되었다.
+                                            forEver 관계자는 “향후 적극적인 지속가능경영 체계 구축 및 이행을 통해 기업의 사회적 책임을 다하겠다”고 말했다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">04</span>
+                                        <span class="stt">
+                                            가상상담사 솔루션 상품화 위해 한솔인티큐브와 MOU 체결
+
+                                        </span>
+                                        <span class="desc">
+                                            forEVer 대표이사, (우) 류창성 한솔인티큐브 대표이사 효성의 IT 계열회사인 forEVer가 인공지능컨택센터(AICC) 시장에서의
+                                            경쟁력
+                                            강화를 위해 한솔인티큐브와 손을 잡고 가상상담사 솔루션 사업에 나선다.
+                                            고객센터 이용자 입장에서는 ARS의 길고 복잡한 안내를 듣거나, 상담원 연결을 기다리지 않더라도 문의 내용을 음성으로 즉시 접수함으로써
+                                            통화 시간을 줄일 수 있다. 또한 간단한 문의는 셀프(Self) 처리가 가능하여, 상담원과의 직접 연결을 원하지 않는 MZ 세대의 이용
+                                            편의를 제고할 수 있을 것으로 기대된다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <a href="">
+                                    <div class="txt">
+                                        <span class="num">05</span>
+                                        <span class="stt">
+                                            무더위에 지친 취약계층 대상 나눔 행사
+                                        </span>
+                                        <span class="desc">
+                                            forEver는와 두 기관이 협력하여 개최한 행사는 영등포구 대림동 소재 식당에서 약 60여명의 노인들을 초청하여 진행되었다. 행사 기간
+                                            동안 저소득 어르신들께 무더위를 이겨내실 수 있는 든든한 보양식을 제공하고, 시원한 여름을 날 수 있도록 홑겹 이불을 1채씩 전달하는 등
+                                            나눔의 시간을 가졌다.
+                                            forEver 관계자는 “최근 임직원들이 모두 동참한 걷기 기부 챌린지 달성에 따라 이번 행사를 진행하게 되었다”며, “앞으로도 회사와
+                                            임직원 모두 힘을 합쳐 지역사회에 도움이 될 수 있는 다양한 방법들을 모색하겠다”고 말했다.
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <i class="xi-long-arrow-left left"></i>
+                    <i class="xi-long-arrow-right right"></i>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section class="section main_about">
+            <div class="inner">
+                <div class="about_wrap">
+                    <div class="tit">
+                        <h2>
+                            전기 충전관련 인프라 및
+                            <span>통합 솔루션을 제공합니다.</span>
+                        </h2>
+                    </div>
+                    <div class="area">
+                        <ul>
+                            <li>
+                                <div class="itm itm01">
+                                    <div class="txt">
+                                        <i class="xi-battery-70"></i>
+                                        <h3>SERVICE</h3>
+                                        <p>
+                                            실 사용자 위주의 서비스를
+                                            <span>목표로 쉽게 충전 DATA를 제공</span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itm itm02">
+                                    <div class="txt">
+                                        <i class="xi-signal-4"></i>
+                                        <h3>VALUE</h3>
+                                        <p>
+                                            전기차 충전기 시설 투자를 한
+                                            <span>부동산 가치 상승</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itm itm03">
+                                    <div class="txt">
+                                        <i class="xi-devices"></i>
+                                        <h3>ACCESS</h3>
+                                        <p>
+                                            공용 EV 충전 네트워크에 대한
+                                            <span>액세스를 제공</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="itm itm04">
+                                    <div class="txt">
+                                        <i class="xi-central-router"></i>
+                                        <h3>LOCATION</h3>
+                                        <p>
+                                            충전소 위치 및 실시간
+                                            <span>사용 가능 여부 확인</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+
+        <footer class="footer section fp-auto-height">
+            <div class="ft">
+                <div class="inner">
+                    <div class="img_box">
+                        <img src="./images/logo1on.png" alt="">
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li><a href="">이용약관</a></li>
+                            <li><a href=""><strong>개인정보처리방침</strong></a></li>
+                            <li><a href="">위치기반 서비스 이용약관</a></li>
+                        </ul>
+                    </div>
+                    <div class="family_link">
+                        <select id="f1">
+                            <option value="">포에버앱 다운로드 받기</option>
+                            <option value="https://play.google.com/store/apps/details?id=com.forever.hancommds">
+                                포에버 앱(Android)</option>
+                            <option value="https://apps.apple.com/kr/app/%ED%8F%AC%EC%97%90%EB%B2%84/id1579613944">
+                                포에버 앱(IOS)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="fb">
+                <div class="inner">
+                    <div class="fb_l">
+                        <div class="address">(주)MDS테크 (13493) 경기도 성남시 분당구 대왕판교로 644번길 49 DTC타워 9층</div>
+                        <ul>
+                            <li><a href=""><span>대표 </span> 이창열, 이정승 </a></li>
+                            <li><a href=""><span>사업자등록번호 </span> 117-81-22859</a></li>
+                            <li><a href=""><span>이메일 </span></a> forever@mdstech.co.kr</li>
+                        </ul>
+                        <div class="copy">&copy;MDS TECH Inc. All RIGHTS RESERVED</div>
+                    </div>
+                    <div class="fb_r">
+                        <div class="tel">
+                            <span class="name">포에버 고객센터</span>
+                            <span><a href="tel: 1533-4562">1533-4562</i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <div class="to_top">
+        <a href="#intro">
+            <span><i class="xi-caret-up-min"></i>TOP</span>
+        </a>
+    </div>
+</body>
+
+</html>
