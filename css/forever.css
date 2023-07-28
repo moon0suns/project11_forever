@@ -28,8 +28,8 @@
 
 @media (max-width: 768px) {
     .btn {
-        font-size: 14rem;
-        padding: 15rem 40rem;
+        font-size: 12rem;
+        padding: 12rem 30rem;
     }
 }
 
@@ -387,7 +387,7 @@
         position: absolute;
         inset: 14rem 5rem auto 5rem;
         height: 2rem;
-        background: #ddd;
+        background: #666;
     }
 
 
@@ -412,7 +412,7 @@
         content: "";
         position: absolute;
         height: 2rem;
-        background: #ddd;
+        background: #666;
     }
 
 
@@ -637,13 +637,13 @@
     }
 
     .main_visual .mbg .slogan h2 {
-        font-size: 32rem;
+        font-size: 27rem;
         display: block;
 
     }
 
     .main_visual .mbg .slogan p {
-        font-size: 18rem;
+        font-size: 14rem;
         display: block;
     }
 
@@ -834,7 +834,7 @@
     }
 
     .main_charge .charge_txt h2 {
-        font-size: 36rem;
+        font-size: 32rem;
         line-height: 1.4;
     }
 
@@ -843,7 +843,7 @@
     }
 
     .main_charge .charge_txt p {
-        font-size: 16rem;
+        font-size: 13rem;
     }
 
 
@@ -1005,7 +1005,7 @@
     }
 
     .main_service .box .txt .btn {
-        font-size: 15rem;
+        font-size: 12rem;
 
     }
 }
@@ -1140,11 +1140,11 @@
     }
 
     .main_notice .tit h2 {
-        font-size: 36rem;
+        font-size: 32rem;
     }
 
     .main_notice .tit h2 span {
-        font-size: 36rem;
+        font-size: 32rem;
     }
 
     .main_notice .con_slide .txt .num {
@@ -1160,7 +1160,7 @@
     }
 
     .main_notice .arrows {
-        top: 38%;
+        top: 36%;
         right: 0;
     }
 
@@ -1257,11 +1257,16 @@
 
 @media (max-width: 768px) {
     .main_about {
+        padding: 0 0 30rem 0;
         background: url(../images/about-bg-m.jpg)no-repeat center center /cover;
     }
 
     .main_about h2 {
-        font-size: 36rem;
+        font-size: 32rem;
+    }
+
+    .main_about h2 span {
+        display: block;
     }
 
 
