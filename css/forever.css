@@ -459,7 +459,7 @@
     display: block;
     line-height: 50rem;
     padding: 0 0 0 20rem;
-    color: #aaa;
+    color: #ddd;
 
     font-size: 12rem;
 }
@@ -786,7 +786,7 @@
     font-size: 52rem;
     font-weight: 500;
     color: #000;
-    line-height: 1.45;
+    line-height: 1.36;
     margin-bottom: 30rem;
 }
 
@@ -825,6 +825,11 @@
     border: none;
 }
 
+
+.main_charge .tab button span {
+    margin: 0 0 0 5rem;
+}
+
 .main_charge .tab .active {
     background: var(--mc);
 }
@@ -833,6 +838,7 @@
 
 
     .main_charge {
+        margin: -200rem 0;
         position: relative;
         background: url(../images/charge1m.jpg) no-repeat center center /cover;
     }
@@ -1031,7 +1037,7 @@
 }
 
 .main_notice .content .con_bg {
-    background: url(../images/svis3.png)no-repeat center center/cover;
+    background: url(../images/notice1.jpg)no-repeat center center/cover;
     height: 400rem;
     width: 100%;
     padding: 80rem 0 0 0;
@@ -1088,7 +1094,7 @@
 
 .main_notice .arrows {
     position: absolute;
-    top: 41%;
+    top: 42%;
     right: 5rem;
     transform: translate(-50%, -50%);
 
@@ -1125,6 +1131,10 @@
 }
 
 @media (max-width: 768px) {
+
+    .main_notice {
+        margin: -120rem 0 -40rem 0;
+    }
 
     .main_notice .con_slide {
         width: 100%;
