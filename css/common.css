@@ -1,8 +1,8 @@
 html {
-    font-size: 6.25%;
+    font-size: 62.5%;
 }
 
-/* 1rem = 1px */
+/* 1px = 1px */
 
 @media (max-width: 540px) {
     html {
@@ -13,27 +13,21 @@ html {
 }
 
 body {
-    font-size: 16rem;
+    font-size: 16px;
     word-break: keep-all;
 }
 
-/* line-height : 3rem + 3rem */
+/* line-height : 3px + 3px */
 p {
     line-height: 1.375;
 }
 
 .inner {
-    max-width: 1200rem;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15rem;
+    padding: 0 15px;
 }
 
 .sec {
-    padding: 100rem 0;
-}
-
-@media (max-width: 540px) {
-    .section {
-        padding: 0;
-    }
+    padding: 100px 0;
 }
