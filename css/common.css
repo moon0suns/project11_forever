@@ -31,3 +31,9 @@ p {
 .sec {
     padding: 100px 0;
 }
+
+@media (max-width: 540px) {
+    section {
+        padding: 0 0;
+    }
+}
