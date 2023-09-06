@@ -7,11 +7,7 @@ $(function () {
         responsiveWidth: 768,
         afterLoad: function (lnk, idx) {
             console.log(lnk, idx);
-            //만약에 2번쨰에 오면... nav li class on을 붙이고 나머지 a는 뗀다.
-            // $('nav li a').removeClass('on');
             if (idx != 1) {
-                //$('nav li').eq(1).find('a').addClass('on');
-
                 if ($(window).width() > 767) {
                     $('nav').addClass('on');
                     $('.header').addClass('on');
@@ -37,31 +33,17 @@ $(function () {
                 $('.to_top').fadeIn();
             }
 
-
-
-
-            // if (idx == 4) {
-            //     //$('nav li').eq(1).find('a').addClass('on');
-            //     $('nav').addClass('on')
-            // } else {
-            //     $('nav').removeClass('on')
-            // }
         },
         onLeave: function (idx, nIdx, dir) {
             console.log(idx, nIdx, dir);
-            // $('nav li').eq(nIdx - 1).addClass('on').siblings().removeClass('on');
             $('.aside li').eq(nIdx - 1).addClass('on').siblings().removeClass('on');
 
         }
-        // navigation: true,
-        // navigationPosition: 'left',
-        // navigationTooltips: ['첫페이지', '두페이지']
     });
 
 
     const mainSlide = new Swiper('.main_slide', {
         loop: true,
-        // 💫스와이퍼
         parallax: true,
         speed: 600,
         dots: true,
@@ -106,7 +88,6 @@ $(function () {
         spaceBetween: 40,
         autoplay: {
             delay: 4000,
-            //disableOnInteraction: false,
         },
 
         pagination: {
@@ -114,7 +95,6 @@ $(function () {
             type: "progressbar",
         },
 
-        // 반응형갔을때
         breakpoints: {
             768: {
                 slidesPerView: 3,
@@ -141,9 +121,6 @@ $(function () {
 
 
 
-    // 📳 반응형
-
-    // 2 서부메뉴 누르면 나오게
     $('.header .gnb>ul>li').on('click', function (e) {
         if ($('.header .gnb').hasClass('on')) {
             e.preventDefault();
@@ -152,14 +129,12 @@ $(function () {
 
     });
 
-    // 3 클릭햇을때 메뉴 나오게
     $('.mopen').on('click', function () {
         $(this).toggleClass('on')
         $('.gnb').toggleClass('on')
     });
 
 
-    //pc버전에서 오류작동 잡기
     $(window).on('resize', function () {
         $('.header .gnb').removeClass('on');
         $('.sub').removeAttr('style');

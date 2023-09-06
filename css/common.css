@@ -4,7 +4,7 @@ html {
 
 /* 1rem = 1px */
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     html {
         font-size: 0.25641025641vw;
         /* 390 size에 맞춤 (16/390*6.25/100) */
@@ -32,8 +32,8 @@ p {
     padding: 100rem 0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     .section {
-        padding: 0 0;
+        padding: 0;
     }
 }
