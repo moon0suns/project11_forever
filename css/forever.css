@@ -22,7 +22,7 @@
     background: var(--mc);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     .btn {
         font-size: 12px;
         padding: 12px 30px;
@@ -169,7 +169,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
     .header {
         position: fixed;
@@ -353,7 +353,7 @@
     color: #000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     .header .tnb {
         display: none;
     }
@@ -363,7 +363,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
 
     .mopen {
@@ -528,7 +528,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     .aside {
         display: none;
     }
@@ -561,7 +561,7 @@
     background: url(../images/vis3.jpg)no-repeat center center /cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
     .main_visual .mbg {
         position: relative;
@@ -624,7 +624,7 @@
     padding: 0 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
     .main_visual .mbg .slogan {
         position: absolute;
@@ -829,7 +829,7 @@
     background: var(--mc);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
 
     .main_charge {
@@ -989,7 +989,7 @@
     border: 1px solid var(--mc);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
     .main_service .box {
         position: relative;
@@ -1132,7 +1132,7 @@
     border: 1px solid var(--mc);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
 
 
@@ -1269,7 +1269,7 @@
     border-left: 1px solid rgba(255, 255, 255, .1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     .main_about {
         padding: 0 0 50px 0;
         background: url(../images/about-bg-m.jpg)no-repeat center center /cover;
@@ -1451,7 +1451,7 @@
     text-align: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
     .footer {
         background: #f1f1f1;
@@ -1556,7 +1556,7 @@
     font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
 
     .to_top {
         right: 15px;
